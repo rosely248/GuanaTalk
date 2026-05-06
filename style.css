@@ -1,0 +1,141 @@
+:root {
+    --primary-blue: #0052b4;
+    --accent-green: #4caf50;
+    --bg-cream: #fdf5e6;
+    --card-yellow: #f9e6b3;
+    --btn-gold: #f0b440;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: var(--bg-cream);
+    margin: 0;
+}
+
+.navbar {
+    background-color: var(--primary-blue);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    color: white;
+}
+
+.navbar nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.profile-btn {
+    background-color: var(--accent-green);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.login-card {
+    background-color: var(--card-yellow);
+    width: 80%;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 40px;
+    border-radius: 30px;
+    position: relative;
+    text-align: center;
+}
+
+.input-group {
+    display: flex;
+    background: white;
+    margin: 15px 0;
+    border-radius: 15px;
+    overflow: hidden;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    transform: scale(1.2);
+    transform-origin: center;
+    margin: 100px auto;
+}
+
+.icon-box {
+   width: 80px;
+   height: 60px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 2.8rem;
+   border-radius: 15px;
+   flex-shrink: 0;
+}
+
+.input-field {
+    text-align: left;
+    padding: 5px 15px;
+    flex-grow: 1;
+}
+
+.input-field input {
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+.login-btn {
+    background-color: var(--btn-gold);
+    border: none;
+    padding: 15px 80px;
+    border-radius: 25px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 0 #d49a2e;
+}
+
+.fun-fact-bar {
+    background-color: #f5dca0;
+    width: 85%;
+    margin: 110px auto;
+    padding: 15px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.fun-fact-bar p {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.megaphone {
+font-size: 4rem ;
+flex-shrink: 0;
+}
+
+.form-options {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    gap: 30px;           
+    margin: 25px 100px;         
+    font-size: 1.1rem;       
+    font-weight: 500;
+}
+
+/* FUN FACT */
+.fun-fact {
+    background: #f5d99c;
+  margin: 20px;
+  padding: 15px 20px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+}
